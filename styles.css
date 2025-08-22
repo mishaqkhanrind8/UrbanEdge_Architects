@@ -1,0 +1,16 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: min(1399px, 100%);
+}
+body {
+    font-size: clamp(16px, 1rem+1vw, 13px);
+    letter-spacing: 0.5;
+    overflow-wrap: break-word;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
