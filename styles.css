@@ -227,12 +227,11 @@ main.wrapper {
 /* -------------------------------------------------
    CONTACT SECTION (FORM)
 ------------------------------------------------- */
-section#contact {
-  all: unset;
+#contact {
   padding: 20px;
 }
 
-section#contact h2 {
+#contact h2 {
   margin-bottom: 20px;
 }
 
@@ -296,12 +295,13 @@ p.submit-alert {
    LOCATION SECTION
 ------------------------------------------------- */
 #location {
-  padding: 40px 20 0;
+  padding: 40px auto 0;
   text-align: center;
 }
 
 #location h2 {
   display: none;
+  padding-left: 20px;
 }
 
 .location-img {
