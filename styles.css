@@ -283,14 +283,17 @@ div.alert-sec {
   height: 30px;
 }
 
-p.submit-alert {
-  color: green;
-  font-weight: 600;
+.toast {
+  color: seagreen;
+  font-weight: 400;
   position: absolute;
-  display: none;
+  opacity: 0;
   transition: all 0.4s ease;
 }
 
+.toast.show {
+  opacity: 1.0;
+}
 /* -------------------------------------------------
    LOCATION SECTION
 ------------------------------------------------- */

@@ -5,9 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>UrbanEdge Architects</title>
-  <!-- FONTS & ICONS -->
-<!-- Font Awesome 6 -->
+
+ <!-- Open Graph Meta Tags -->
+<meta property="og:title" content="UrbanEdge Architects - Innovative & Sustainable Designs">
+<meta property="og:description" content="UrbanEdge Architects specializes in modern, sustainable, and innovative architectural solutions. Explore our projects, meet our team, and bring your vision to life.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://urbanedgearchitects.netlify.app/">
+<meta property="og:image" content="assets/android-chrome-512x512.png">
+<meta property="og:site_name" content="UrbanEdge Architects">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card (optional but recommended) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="UrbanEdge Architects - Innovative & Sustainable Designs">
+<meta name="twitter:description" content="Explore sustainable and modern architectural solutions with UrbanEdge Architects.">
+<meta name="twitter:image" content="assets/android-chrome-512x512.png">
+<meta name="twitter:site" content="@YourTwitterHandle">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -126,7 +142,7 @@
     <!-- CONTACT SECTION -->
     <section id="contact">
       <h2>Contact</h2>
-      <form action="/submit-form" method="post">
+      <form action="" id="myForm" method="post">
         <fieldset>
           <legend>Lets get in touch and talk about your next project.</legend>
           <input type="text" name="full-name" id="full-name" placeholder="Full Name" required>
@@ -135,8 +151,8 @@
           <textarea name="message" id="message" placeholder="Enter your message here"></textarea>
         </fieldset>
         <input type="submit" value="Send Message">
-        <div class="alert-sec">
-          <p class="submit-alert">message has been sent successfully</p>
+        <div class="toast" id="toast">
+          Message has been sent successfully
         </div>
       </form>
     </section>
@@ -162,9 +178,6 @@
     <p>Powered by <em><a href="https://pro.fiverr.com/freelancers/ishaqkhanrind78?">Muhammad Ishaq</a></em></p>
   </footer>
 
-  <!-- ===================================
-       JAVASCRIPT
-  =================================== -->
-  <script src="script.js"></script>
+  <script src="scirpt.js"></script>
 </body>
 </html>
