@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- META INFORMATION -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>UrbanEdge Architects</title>
+  <!-- FONTS & ICONS -->
+<!-- Font Awesome 6 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="navbar-brand">
+      <a href="#hero-section"><span class="bg-dark-brand">UrbanEdge</span> Architects</a>
+    </div>
+
+    <nav>
+      <ul class="nav">
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrapper">
+
+    <section id="hero-section">
+      <img class="hero-img" src="assets/hero-image.jpg" loading="lazy" alt="Hero image">
+      <h1 class="hero-heading"><span class="bg-dark-opacity-05">UrbanEdge</span> Architects</h1>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid-container">
+        <div>
+          <h3>Summer House</h3>
+          <img class="project-img" src="assets/project-pic -4.jpg" loading="lazy" alt="picture of summer house">
+        </div>
+        <div>
+          <h3>Brick House</h3>
+          <img class="project-img" src="assets/project-pic -3.jpg" loading="lazy" alt="picture of brick house">
+        </div>
+        <div>
+          <h3>Renovated</h3>
+          <img class="project-img" src="assets/project-pic -2.jpg" loading="lazy" alt="picture of Renovated house">
+        </div>
+        <div>
+          <h3>Barn House</h3>
+          <img class="project-img" src="assets/project-pic -1.jpg" loading="lazy" alt="picture of barn house">
+        </div>
+        <!-- Additional Projects -->
+        <div>
+          <h3>Summer House</h3>
+          <img class="project-img" src="assets/project-pic -3.jpg" loading="lazy" alt="image of summer house">
+        </div>
+        <div>
+          <h3>Brick House</h3>
+          <img class="project-img" src="assets/project-pic -2.jpg" loading="lazy" alt="image of brick house">
+        </div>
+        <div>
+          <h3>Renovated</h3>
+          <img class="project-img" src="assets/project-pic -1.jpg" loading="lazy" alt="image of Renovated house">
+        </div>
+        <div>
+          <h3>Barn House</h3>
+          <img class="project-img" src="assets/project-pic -4.jpg" loading="lazy" alt="image of barn house">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam
+        co laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non 
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adip
+        iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons
+        equat.
+      </p>
+
+      <!-- Team Members -->
+      <div class="flex-container">
+        <!-- Team Member Card -->
+        <div class="card">
+          <img class="card-img" src="assets/proifle-1.jpg" alt="Muhammad Ishaq" loading="lazy">
+          <h3>Muhammad Ishaq</h3>
+          <p class="subtitle">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/profile-2.jpg" alt="Ali Khan" loading="lazy">
+          <h3>Ali Khan</h3>
+          <p class="subtitle">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/profile-3.jpg" alt="Muhammad Khan" loading="lazy">
+          <h3>Muhammad Khan</h3>
+          <p class="subtitle">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/profile-4.jpg" alt="Hamza Khan" loading="lazy">
+          <h3>Hamza Khan</h3>
+          <p class="subtitle">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="/submit-form" method="post">
+        <fieldset>
+          <legend>Lets get in touch and talk about your next project.</legend>
+          <input type="text" name="full-name" id="full-name" placeholder="Full Name" required>
+          <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+          <input type="text" name="subject" id="subject" placeholder="Subject">
+          <textarea name="message" id="message" placeholder="Enter your message here"></textarea>
+        </fieldset>
+        <input type="submit" value="Send Message">
+        <div class="alert-sec">
+          <p class="submit-alert">message has been sent successfully</p>
+        </div>
+      </form>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <div id="location">
+      <img class="location-img" src="assets/map.jpg" alt="Location Image" loading="lazy">
+    </div>
+
+  </main>
+
+  <!-- ===================================
+       FOOTER SECTION
+  =================================== -->
+  <footer>
+    <!-- Social Links -->
+    <div class="social-links">
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook facebook"></i></a>
+      <a href="#" aria-label="Youtube"><i class="fa-brands fa-youtube youtube"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin linkedin"></i></a>
+    </div>
+    <!-- Copyright -->
+    <p>Powered by <em><a href="https://pro.fiverr.com/freelancers/ishaqkhanrind78?">Muhammad Ishaq</a></em></p>
+  </footer>
+
+  <!-- ===================================
+       JAVASCRIPT
+  =================================== -->
+  <script src="script.js"></script>
+</body>
+</html>
