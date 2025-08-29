@@ -304,8 +304,8 @@ p.submit-alert {
   display: none;
 }
 
-#location p img.location-img {
-  max-width: 100%;
+.location-img {
+  width:  100%;
   height: auto;
   object-fit: cover;
 }
