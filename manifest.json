@@ -2,20 +2,20 @@
   "name": "Urban Edge Architects",
   "short_name": "UrbanEdge",
   "description": "UrbanEdge is an Architect template website and PWA App created by Muhammad Ishaq Khan",
-  "start_url": "/index.html",
-  "scope": "/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#F0E0CD",
-  "theme_color": "#F0E0CD",
+  "background_color": "#000",
+  "theme_color": "#000",
   "icons": [
     {
-      "src": "assets/android-chrome-192x192.png",
+      "src": "./assets/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "assets/android-chrome-512x512.png",
+      "src": "./assets/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
