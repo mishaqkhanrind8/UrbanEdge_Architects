@@ -8,7 +8,7 @@ const ASSETS_TO_CACHE = [
   "/styles.css",
   "/script.js",
   "/assets/android-chrome-192x192.png",
-  "/assets/android-chrome-512x512.png"
+  "/assets/android-chrome-512x512.png",
   OFFLINE_URL
 ];
 
