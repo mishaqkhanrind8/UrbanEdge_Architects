@@ -8,6 +8,7 @@
 html {
   scroll-behavior: smooth;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-display: swap;
 }
 
 body {
