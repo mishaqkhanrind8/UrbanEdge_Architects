@@ -140,6 +140,8 @@ main.wrapper {
 
 .grid-container div {
   position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0, 0
+.5);
 }
 
 .grid-container div h3 {
